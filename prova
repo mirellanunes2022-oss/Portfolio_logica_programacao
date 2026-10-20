@@ -1,0 +1,38 @@
+import os
+os.system('cls|| clear') 
+
+print('Digite seu nome:')
+nome = str(input())
+
+print('seu nome é ' , nome)
+print('bem-vindo', nome )
+
+import os
+os.system('cls|| clear')
+
+print("Digite sua idade")
+idade = int(input())
+
+if (idade <=16) :
+  print("nao pode entra")
+if ( idade >= 16) and (idade >=17):
+  print("Pode entra com responsavel")
+if(idade >= 18):
+  print('entrada liberada')
+  
+  
+import os
+os.system('cls|| clear')
+
+print(" digite a sua temperatura")
+temperatura = int(input())
+
+if (temperatura <=18):
+    print(' a temperatura estara fria')
+    print('a temperatura estar fria')
+if (temperatura <=18) and (temperatura >=25):
+    print('a temperatura estara agradavel')
+if (temperatura >=25): 
+       print(' a temperatura estara quente')
+
+

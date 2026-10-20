@@ -1,0 +1,5 @@
+import os
+os.system('cls|| clear') 
+
+def nome():
+    print(f"digite seu {nome}")

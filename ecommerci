@@ -1,0 +1,14 @@
+import os
+os.system('cls|| clear') 
+
+idade= int(input('digite sua idade: '))
+
+if (idade >= 18) :
+    print(' Acessso permitido')
+else:
+    print(' Acesso permitido')
+    
+if (idade <= 18) :
+     print('Acesso negado para menores de 18 anos')  
+else:
+     print('Acesso negado para menores de 18 anos') 
